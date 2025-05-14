@@ -146,7 +146,7 @@ void onSliderChange(int, void*) {
 }
 
 int main() {
-    img = imread("/Users/bishesh/Desktop/Intern/opencv-setup/combined.png");
+    img = imread("path of your image");
     if (img.empty()) {
         cout << "Could not open image" << endl;
         return -1;
